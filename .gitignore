@@ -1,0 +1,9 @@
+venv
+venv/
+__pycache__
+db.sqlite3
+tasks/migrations
+tasks/__pycache__
+djangocrud/__pycache__
+.env
+env/

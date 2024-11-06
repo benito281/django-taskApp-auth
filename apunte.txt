@@ -1,0 +1,36 @@
+Entorno virtual
+ Es una carpeta en donde se instala una versión especifica de django, pip, etc.
+ Con esto lo que se hacer aislar las instalaciones correspondientes de otras carpetas.
+
+Crear el entorno virtual
+    py -m venv venv
+
+Activar el entorno virtual
+    venv\Scripts\activate
+O tambien 
+    CTRL + SHIFT + P 
+    Select Interpreter
+    Python "Versión" Recommend
+
+Instalar django
+    pip install django
+
+Crear un proyecto en django
+    django-admin startproject "nombre del proyecto" .
+Crear una aplicación
+    python manage.py startapp tasks
+Creación de formulario 
+    from django.contrib.auth.forms import UserCreationForm
+
+    def tasks(request):
+        return render(request, 'signup.html', {
+            'form' : UserCreationForm()
+            })
+Creación de usuario
+    User.objects.create_user()
+
+Login de usuario
+    login(request, user)
+    crea un id de sesiónS
+
+
