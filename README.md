@@ -1,7 +1,7 @@
-#Django-taskApp-auth
-##Aplicación de tareas con autenticación desarrollado en Django.<
+# Django-taskApp-auth
+## Aplicación de tareas con autenticación desarrollado en Django.<
 
-##Pasos para correr servidor
+## Pasos para correr servidor
 
 * Entorno
   ``` python -m venv venv source env/bin/activate ```
